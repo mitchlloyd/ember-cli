@@ -231,7 +231,7 @@ sample meta tag:
 
 This meta tag is required for your ember application to function properly.
 If you prefer to have this tag be part of your compiled javascript files
-instead, you may use the `storeConfigInMeta` flag.
+instead, you may use the `storeConfigInMeta` flag inside of `Brocfile.js`.
 
 {% highlight javascript %}
 var app = new EmberApp({
